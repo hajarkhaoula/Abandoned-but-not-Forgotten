@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abandoned but not Forgotten | NASA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+        body {
+            margin: 0;
+            background: #071426;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .main-header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background:
+                linear-gradient(rgba(3, 12, 28, .45), #071426),
+                url("images/space.jpg") center/cover;
+        }
+
+        .hero-content {
+            max-width: 850px;
+        }
+
+        .eyebrow {
+            color: #00c8ff;
+            letter-spacing: 4px;
+            font-size: 12px;
+        }
+
+        h1 {
+            font-size: clamp(38px, 7vw, 75px);
+            margin: 25px 0;
+        }
+
+        .hero-content p {
+            color: #c0cbd9;
+            line-height: 1.8;
+        }
+
+        .explore-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: #00a9d6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: .3s;
+        }
+
+        .explore-button:hover {
+            background: #007fa5;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 210px;
+            height: 100vh;
+            padding: 35px 20px;
+            background: #0c1b30;
+            border-right: 1px solid #203b58;
+            z-index: 10;
+        }
+
+        .sidebar h2 {
+            color: #00c8ff;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #c5d3e5;
+            text-decoration: none;
+            padding: 15px 10px;
+            border-radius: 6px;
+            transition: .3s;
+        }
+
+        .sidebar a:hover {
+            background: #18304b;
+            color: #00c8ff;
+        }
+
+        .page-content {
+            margin-left: 210px;
+        }
+
+        .intro {
+            max-width: 850px;
+            margin: auto;
+            padding: 100px 35px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 35px;
+        }
+
+        .intro p {
+            color: #aebdd0;
+            line-height: 1.9;
+        }
+
+        .intro span {
+            color: #00c8ff;
+        }
+
+        footer {
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #203b58;
+            color: #aebdd0;
+        }
+
+        @media (max-width: 650px) {
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+                padding: 15px;
+                border-right: none;
+                border-bottom: 1px solid #203b58;
+            }
+
+            .sidebar h2 {
+                margin: 5px 0 10px;
+            }
+
+            .sidebar a {
+                display: inline-block;
+                padding: 10px;
+            }
+
+            .page-content {
+                margin-left: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="sidebar">
+
+        <h2>NASA EXPLORERS</h2>
+
+        <a href="nasa.html">Home</a>
+
+        <a href="kkk.html#moon">The Moon</a>
+
+        <a href="kkk.html#mars">Mars & Beyond</a>
+
+        <a href="kkk.html">Explore Missions</a>
+
+    </nav>
+
+
+    <div class="page-content">
+
+        <header class="main-header">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    NASA · SPACE EXPLORATION · HUMAN HISTORY
+                </p>
+
+                <h1>Abandoned but not Forgotten</h1>
+
+                <p>
+                    Beyond Earth, countless machines and scientific
+                    instruments remain where their missions ended.
+
+                    Discover the forgotten explorers that helped
+                    humanity understand the Moon, Mars and beyond.
+                </p>
+
+                <a href="kkk.html" class="explore-button">
+                    Explore the Missions →
+                </a>
+
+            </div>
+
+        </header>
+
+
+        <section class="intro">
+
+            <p class="eyebrow">A JOURNEY THROUGH SPACE</p>
+
+            <h2>Some Missions Never Truly End</h2>
+
+            <p>
+                From lunar vehicles and scientific experiments
+                to robotic explorers on Mars, these machines
+                left behind a remarkable legacy.
+
+                Although their journeys have ended, their
+                contributions to science remain important.
+            </p>
+
+            <a href="kkk.html" class="explore-button">
+                Discover Their Stories
+            </a>
+
+        </section>
+
+
+        <footer>
+
+            <h3>Abandoned but not Forgotten</h3>
+
+            <p>Exploring the legacy of NASA's space missions.</p>
+
+            <p>Space Hackathon Project · 2026</p>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
