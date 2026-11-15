@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Moon & Mars | Abandoned but not Forgotten</title>
+
+    <link rel="stylesheet" href="explorers-new.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 25px;
+        }
+
+        body {
+            background: #071426;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .explorer-card {
+            overflow: hidden;
+            border-radius: 14px;
+        }
+
+        .explorer-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content p {
+            line-height: 1.7;
+        }
+
+        .card-content a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #00c8ff;
+            text-decoration: none;
+        }
+
+        .explorer-section {
+            scroll-margin-top: 25px;
+        }
+
+        .back-link {
+            color: #00c8ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="explorer-header">
+
+    <p class="eyebrow">NASA · SPACE EXPLORATION</p>
+
+    <h1>Forgotten Explorers</h1>
+
+    <p>
+        Discover the machines and scientific instruments
+        that explored space and left behind a remarkable legacy.
+    </p>
+
+    <a href="nasa.html" class="back-link">← Back to Home</a>
+
+</header>
+
+
+<main class="explorer-main">
+
+    <!-- THE MOON -->
+
+    <section class="explorer-section" id="moon">
+
+        <div class="section-heading">
+            <span>01 — LUNAR EXPLORATION</span>
+            <h2>The Moon</h2>
+            <p>Three remarkable legacies of the Apollo missions.</p>
+        </div>
+
+        <div class="cards-container">
+
+            <article class="explorer-card">
+
+                <img src="images/apollo.jpg" alt="Apollo Lunar Module">
+
+                <div class="card-content">
+
+                    <span class="location">THE MOON · 1969–1972</span>
+
+                    <h3>Apollo Lunar Modules</h3>
+
+                    <p>
+                        The spacecraft that made human Moon landings
+                        possible. Their descent stages remain on the Moon.
+                    </p>
+
+                    <a href="apollo.html">Discover the Story →</a>
+
+                </div>
+            </article>
+
+
+            <article class="explorer-card">
+
+                <img src="images/rover.jpg" alt="Lunar Roving Vehicle">
+
+                <div class="card-content">
+
+                    <span class="location">THE MOON · 1971–1972</span>
+
+                    <h3>Lunar Roving Vehicles</h3>
+
+                    <p>
+                        Electric moon buggies that helped astronauts
+                        explore the lunar surface.
+                    </p>
+
+                    <a href="rover.html">Discover the Story →</a>
+
+                </div>
+            </article>
+
+
+            <article class="explorer-card">
+
+                <img src="images/alsep.jpg" alt="ALSEP Scientific Packages">
+
+                <div class="card-content">
+
+                    <span class="location">THE MOON · 1969–1972</span>
+
+                    <h3>ALSEP Scientific Packages</h3>
+
+                    <p>
+                        Scientific instruments that studied lunar
+                        vibrations, magnetic fields and the environment.
+                    </p>
+
+                    <a href="alsep.html">Discover the Story →</a>
+
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- MARS AND BEYOND -->
+
+    <section class="explorer-section" id="mars">
+
+        <div class="section-heading">
+
+            <span>02 — PLANETARY EXPLORATION</span>
+
+            <h2>Mars & Beyond</h2>
+
+            <p>
+                Robotic explorers that changed our understanding
+                of other worlds.
+            </p>
+
+        </div>
+
+        <div class="cards-container">
+
+            <article class="explorer-card">
+
+                <img src="images/sojourner.jpg" alt="Sojourner Rover">
+
+                <div class="card-content">
+
+                    <span class="location">MARS · 1997</span>
+
+                    <h3>Sojourner Rover</h3>
+
+                    <p>
+                        NASA's first successful wheeled rover
+                        to explore the surface of Mars.
+                    </p>
+
+                    <a href="sojourner.html">Discover the Story →</a>
+
+                </div>
+            </article>
+
+
+            <article class="explorer-card">
+
+                <img src="images/ingenuity.jpg" alt="Ingenuity Helicopter">
+
+                <div class="card-content">
+
+                    <span class="location">MARS · 2021–2024</span>
+
+                    <h3>Ingenuity Helicopter</h3>
+
+                    <p>
+                        The first aircraft to achieve powered,
+                        controlled flight on another planet.
+                    </p>
+
+                    <a href="ingenuity.html">Discover the Story →</a>
+
+                </div>
+            </article>
+
+
+            <article class="explorer-card">
+
+                <img src="images/pioneer.jpg" alt="Pioneer 10 and 11">
+
+                <div class="card-content">
+
+                    <span class="location">DEEP SPACE · 1972–1973</span>
+
+                    <h3>Pioneer 10 & 11</h3>
+
+                    <p>
+                        Historic spacecraft that explored Jupiter,
+                        Saturn and the outer solar system.
+                    </p>
+
+                    <a href="pioneer.html">Discover the Story →</a>
+
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="explorer-footer">
+
+    <h3>Abandoned but not Forgotten</h3>
+
+    <p>Some journeys never truly end.</p>
+
+    <p>Space Hackathon Project · 2026</p>
+
+    <a href="nasa.html" class="back-link">← Back to Home</a>
+
+</footer>
+
+</body>
+</html>
